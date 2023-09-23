@@ -1,20 +1,12 @@
 # Student_Success_Predictor_LogReg
-A Flask web application utilizing a Logistic Regression model to predict student dropouts based on various factors. Incorporates data preprocessing and addresses class imbalance with SMOTE. Simply input student details to get a prediction.
+Machine Learning Web App for Predicting Student Academic Outcomes using Logistic Regression. Built with Flask, trained on a real-world dataset.
 
-Student Dropout Prediction System
+# More details
+This project presents an interactive web application built using Flask, aimed at predicting student academic outcomes. The primary goal is to aid educational institutions by providing them insights into potential student dropouts or successes. Various personal and academic factors serve as input features, which include details such as age, gender, nationality, previous academic performance, socio-economic indicators, and more.
 
-This project aims to predict the likelihood of a student dropping out based on various factors. By leveraging machine learning techniques and a comprehensive dataset, we've developed a model that provides insights into student behavior, helping educational institutions take timely actions to prevent dropouts.
+The core prediction engine of the application is a Logistic Regression model. This model was trained on a real-world dataset that captures diverse student profiles. By understanding the patterns in this data, the model aims to make accurate predictions about a student's likelihood to graduate or drop out.
 
-Features:
-
-Utilizes a Logistic Regression model for binary classification.
-Incorporates data preprocessing techniques like feature scaling and one-hot encoding.
-Uses the SMOTE technique to address class imbalance in the dataset.
-Deployed as a web application using Flask, allowing easy input of student data and displaying the prediction outcome.
-How to Use:
-
-Navigate to the web application.
-Enter the student's details into the provided form.
-Click "Predict" to see the model's prediction.
+By integrating this model into a user-friendly web interface, educational institutions or concerned stakeholders can easily input student data and receive instant predictions. This can be crucial for early interventions, helping institutions take proactive measures to ensure student success.
 
 NOTE: you need to configure this code for your device.
+Dataset's link: https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
