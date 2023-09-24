@@ -1,0 +1,17 @@
+# Requirements.txt
+
+# This file lists all the necessary packages and their versions required to run the project.
+# To install the packages, use the following command:
+# pip install -r requirements.txt
+
+# List of packages and versions
+numpy==1.24.4
+pandas==2.0.3
+scikit-learn==0.24.2
+flask==2.3.3
+joblib==1.3.2
+
+# to create the virtual enviroment, you have to follow: (open the terminal)
+# 1) create the enviroment: virtualenv "enviroment's name"
+# 2) Activate the virtual enviroment: .\'name of the enviroment'\Scripts\Activate.
+# 3) desactivate the virtual enviroment: deactivate
